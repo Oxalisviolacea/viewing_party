@@ -25,4 +25,11 @@ class User < ApplicationRecord
     Friendship.create(user_id: new_friend_id,
                       friend_id: current_user_id)
   end
+
+  def create_friendships(current_user_id, new_friend_id)
+    Friendship.create(user_id: current_user_id,
+                      friend_id: new_friend_id)
+    Friendship.create(user_id: new_friend_id,
+                      friend_id: current_user_id)
+  end
 end
