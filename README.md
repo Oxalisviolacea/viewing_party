@@ -2,8 +2,6 @@
 [![Build Status](https://travis-ci.com/Oxalisviolacea/viewing_party.svg?branch=main)](https://travis-ci.com/Oxalisviolacea/viewing_party)
 # Viewing Party
 
-This is the base repo for the [viewing party project](https://backend.turing.io/module3/projects/viewing_party) used for Turing's Backend Module 3.
-
 ### About this Project
 Viewing party is an application in which users can explore movie options and create a viewing party event for the user and friend's. You can check out our site [here](https://friends-viewing-party.herokuapp.com)!  
 <img src="https://github.com/Oxalisviolacea/viewing_party/blob/main/images/Viewing%20Party%20Gif.gif" width="550" height="450">
